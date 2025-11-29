@@ -28,10 +28,11 @@
 # print(total)
 
 
-# Reverse a number
-num = int(input("Enter a number: "))
-store = 0
 
-L=len(str(num))
-# print(L)
-for i in range(L,1):
+  
+
+
+
+
+
+  
