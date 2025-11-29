@@ -13,34 +13,31 @@ a = 10
 b = 20
 print(a)
 print(b)
-a =+ b
+a += b
 print(a)
-a =- b
+a -= b
 print(a)
-a =* b
+a *= b
 print(a)
-a =/ b
+a /= b
 print(a)
-a =% b
+a %= b
 print(a)
-a =** b
+a **= b
 print(a)
-a =// b
+a //= b
 print(a)
+print(a+b)
 # OUTPUT
 # 10
 # 20
 # 30
 # 10
 # 200
-# 0.5
-# 10
-# 100000000000000000000
-# 0
-# 10
-# 20
+# 10.0
+# 10.0
+# 1e+20
+# 5e+18
 # 30
-# 10
-# 200
 
 

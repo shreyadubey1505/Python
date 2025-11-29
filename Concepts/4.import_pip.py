@@ -22,6 +22,14 @@
 # Example
 import random
 
-print(random.randint(1, 100))
+print(random.randint(1, 100))      # randint is used to generate a random number between 1 and 100.
 # OUTPUT
 # 56
+dice=random.randint(1, 6)
+print(dice)
+# OUTPUT  
+# 3
+# 4
+
+random_float=random.uniform(1,6)    #uniform is used to generate a random float number between 1 and 6.
+print(random_float)
