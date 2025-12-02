@@ -26,7 +26,11 @@
 #     total+=sum
 
 # print(total)
-
+import random
+Words=["Absurd", "Arogant", "Irresponsible", "Impolite", "Uncivilized", "Uncultured", "Uneducated", "Unintelligent", "Uninformed", "Unimaginative",]
+Words="chosen-Words"
+choose=random.choice(Words)
+print(choose)
 
 
   
