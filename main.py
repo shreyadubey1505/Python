@@ -26,11 +26,21 @@
 #     total+=sum
 
 # print(total)
+
+# HANGMAN GAME
 import random
 Words=["Absurd", "Arogant", "Irresponsible", "Impolite", "Uncivilized", "Uncultured", "Uneducated", "Unintelligent", "Uninformed", "Unimaginative",]
-Words="chosen-Words"
-choose=random.choice(Words)
-print(choose)
+Choosen_words = random.choice(Words)
+Guess = input("Guess a letter: ").lower()
+if Guess  in Choosen_words:
+    print("Right")
+for i in range(len(Choosen_words))
+    if Choosen_words[i] == Guess:
+       [i] = Guess
+
+
+
+
 
 
   
