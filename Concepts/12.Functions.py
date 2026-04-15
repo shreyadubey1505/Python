@@ -14,9 +14,10 @@ mini_cats()
 
 
 # Adding parameters to a function
+# integers, strings, floats, booleans, lists, tuples, dictionaries, sets, etc.
 def greet(name , age):
   print(f"Hello {name} , you are {age} years old")
-greet("John","20")
+greet("John",20)
 # OUTPUT
 # Hello John , you are 20 years old
 
@@ -62,3 +63,21 @@ print(x)       #x stores the return value of the function test() which is None.
 # None is not the same as 0, False, or an empty string. None is a data type of its own (NoneType) that indicates the absence of a value.
 # None is often used to indicate that a variable has not been assigned a value yet, or that a function does not return a value.
 
+
+
+# user 2 number -> sum -> average ->? even/odd
+def sumavg(a,b):
+  sum = a+b
+  avg = sum/2
+  return avg
+
+def final(a):
+  if a%2==0:
+    print("Even")
+  else:
+    print("Odd")
+
+a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+result = sumavg(a,b)
+final(result) 
